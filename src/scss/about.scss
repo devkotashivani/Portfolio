@@ -1,4 +1,42 @@
 .about{
-    background-color: brown;
-    
+   
+    .aboutContainer{
+        height: 100%;
+        width: 100%;
+
+        .aboutRow{
+            height:100%;
+
+            .image{
+                height: 100%;
+                position: relative;
+                img{
+                    height: 90%;
+                    width: 75%;
+                    position: absolute;
+                    top: 58px;
+                    bottom: 0px;
+                    left: 70px;
+                    right: 0;
+                    margin: auto;
+                }
+            }
+
+            .info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;                
+            }
+
+            .aboutButton{
+                border: 1px solid;
+                border-radius: 50px;
+                height: 50px;
+                width: 50%;
+                background-color: #d6deea;
+                border-color: #d6deea;
+            }
+
+        }
+    }
 }
