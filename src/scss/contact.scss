@@ -1,3 +1,28 @@
-.contact{
-    background-color: cadetblue;
+@import "../../src/global.scss";
+
+.Contact{
+   
+    background: $background-color;
+    .wave{
+        .waveimg{
+            height: 63px;
+            width: 100%;
+        }
+    }
+    .contactContainer{
+        padding-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+
+        .contactRow{
+            height:my-auto;  
+            .image{
+                height: 430px;
+                width: 75%;
+            }         
+       }       
+   }
+   
 }
