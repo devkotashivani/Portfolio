@@ -6,11 +6,27 @@
     }
     .projectRow{
         margin-top: 30px;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 50px;
+        padding-right: 45px;
     }
-    .image{
-        height: 250px;
-        width: 100%;
+    .projectCard{
+        height: 100%;
+        width: 90%;
+        .image{
+            height: 200px;
+        }
+        .link{
+            height: 100%;
+            color: black;
+            text-decoration: none;
+            border: 1px solid transparent;
+        }
+        .link:hover{   
+            background-color: #e9ecf0;        
+            border: 1px block #e9ecf0;
+            box-shadow:5px 6px #dbe2ed;
+            transition: all .4s ease;
+            -webkit-transition: all .4s ease;
+        }
     }
 }
